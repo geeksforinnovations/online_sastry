@@ -19,3 +19,15 @@ functions:
       - http:
           method: get
           path: hello
+  getAllPujas:
+    handler: functions/index.getAllPujas
+    events:
+      - http:
+          method: get
+          path: pujas
+  getPujaById:
+    handler: functions/index.getPujaById
+    events:
+      - http:
+          method: get
+          path: pujas
