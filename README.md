@@ -14,3 +14,11 @@ work on existing
 Testing
 # Local
 sls invoke local --function hello // we can use serverless/sls
+
+
+
+
+## DB Operations
+ 
+1. Create a Model with migration file
+npx sequelize-cli model:generate --name Puja --attributes name:string
